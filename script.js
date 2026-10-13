@@ -6,7 +6,7 @@ const temperature = document.getElementById('temperature');
 const weatherIcon = document.getElementById('weather-icon');
 const description = document.getElementById('description');
 
-const API_KEY = 'API KEY HERE'; c55768bff1d9b5f54860d9c032c56a7b
+const API_KEY = 'API KEY HERE'; 'c55768bff1d9b5f54860d9c032c56a7b';
 
 async function getWeatherData(city) {
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
