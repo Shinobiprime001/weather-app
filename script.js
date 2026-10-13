@@ -1,3 +1,4 @@
+const errorMessage = document.getElementById('error-message');
 const cityInput = document.getElementById('city-input');
 const searchBtn = document.getElementById('search-btn');
 const weatherDisplay = document.getElementById('weather-display');
